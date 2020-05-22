@@ -1,0 +1,13 @@
+C:\RepoGit\tp6\ejercicio2\bin\Debug\netcoreapp3.1\ejercicio2.exe
+C:\RepoGit\tp6\ejercicio2\bin\Debug\netcoreapp3.1\ejercicio2.deps.json
+C:\RepoGit\tp6\ejercicio2\bin\Debug\netcoreapp3.1\ejercicio2.runtimeconfig.json
+C:\RepoGit\tp6\ejercicio2\bin\Debug\netcoreapp3.1\ejercicio2.runtimeconfig.dev.json
+C:\RepoGit\tp6\ejercicio2\bin\Debug\netcoreapp3.1\ejercicio2.dll
+C:\RepoGit\tp6\ejercicio2\bin\Debug\netcoreapp3.1\ejercicio2.pdb
+C:\RepoGit\tp6\ejercicio2\obj\Debug\netcoreapp3.1\ejercicio2.csprojAssemblyReference.cache
+C:\RepoGit\tp6\ejercicio2\obj\Debug\netcoreapp3.1\ejercicio2.csproj.CoreCompileInputs.cache
+C:\RepoGit\tp6\ejercicio2\obj\Debug\netcoreapp3.1\ejercicio2.AssemblyInfoInputs.cache
+C:\RepoGit\tp6\ejercicio2\obj\Debug\netcoreapp3.1\ejercicio2.AssemblyInfo.cs
+C:\RepoGit\tp6\ejercicio2\obj\Debug\netcoreapp3.1\ejercicio2.dll
+C:\RepoGit\tp6\ejercicio2\obj\Debug\netcoreapp3.1\ejercicio2.pdb
+C:\RepoGit\tp6\ejercicio2\obj\Debug\netcoreapp3.1\ejercicio2.genruntimeconfig.cache
