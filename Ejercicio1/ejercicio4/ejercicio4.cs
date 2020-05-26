@@ -14,7 +14,7 @@ namespace ejercicio4
             Console.WriteLine("Ingrese una cadena de texto: ");
             cadena = Console.ReadLine();
 
-            cadena2 = cadena.Trim('a'); //Remueve todas las instancias del char 'a' en cadena
+            cadena2 = cadena.Replace('a', ' '); //Remueve todas las instancias del char 'a' en cadena
             Console.WriteLine("Cadena modificada: " + cadena2);
 
             Console.WriteLine("Longitud de la cadena: " + cadena.Length);
@@ -75,7 +75,7 @@ namespace ejercicio4
                 Console.WriteLine(c);
             }
 
-            bool esta = cadena.Contains("hola");
+            bool esta = cadena.Contains("Hola");
 
             if (esta)
             {
@@ -103,8 +103,39 @@ namespace ejercicio4
             string cad2 = Console.ReadLine();
             Console.WriteLine("Ingrese el caracter que dividirá la cadena: ");
             char caract = Convert.ToChar((Console.ReadLine()));
-            Console.WriteLine("Cadena separada: " +cad2.Split(caract));
+            string[] separado = cad2.Split(caract);
 
+            foreach (string palabra in separado)
+            {
+                Console.WriteLine(palabra);
+            }
+
+            Console.Write("Ingrese la ecuación simple a resolver: ");
+            string ecuacion = Console.ReadLine();
+            string[] ecuaSplit;
+            float resultado2;
+
+            if (ecuacion.Contains('+'))
+            {
+                ecuaSplit = ecuacion.Split('+');
+                resultado2 = Convert.ToInt32(ecuaSplit[0]) + Convert.ToInt32(ecuaSplit[1]);
+                Console.WriteLine("Resultado: " + resultado2);
+            } else if (ecuacion.Contains('-')){
+                ecuaSplit = ecuacion.Split('-');
+                resultado2 = Convert.ToInt32(ecuaSplit[0]) - Convert.ToInt32(ecuaSplit[1]);
+                Console.WriteLine("Resultado: " + resultado2);
+            } else if (ecuacion.Contains('*'))
+            {
+                ecuaSplit = ecuacion.Split('*');
+                resultado2 = Convert.ToInt32(ecuaSplit[0]) * Convert.ToInt32(ecuaSplit[1]);
+                Console.WriteLine("Resultado: " + resultado2);
+            } else if (ecuacion.Contains('/'))
+            {
+                ecuaSplit = ecuacion.Split('/');
+                resultado2 = Convert.ToInt32(ecuaSplit[0]) / Convert.ToInt32(ecuaSplit[1]);
+                Console.WriteLine("Resultado: " + resultado2);
+
+            }
         }
     }
 }
